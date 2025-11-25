@@ -79,7 +79,7 @@ font-family:roboto,Arial,sans-serif ;
 }
 h1,h2,h3,h4{
 font-family: lato Helvetica,sans-serif;
-letter-spacing:  spacing 0.0325em; ;
+letter-spacing: 0.0325em;
 }
 
 h1{
@@ -121,7 +121,7 @@ body {
 
 header{
 
- padding: 0.25rem 0rem, 1rem 0rem;   
+ padding: 0.25rem 0rem 1rem 0rem;   
 }
 
 nav{
@@ -155,9 +155,9 @@ aside p{
 
 /* IMAGES AND FIGURES*/
 img{
-    /*width: 100px; */
-    width: 400px;
-    height: 300px;
+    width: 100%; 
+    /*height: auto;*/
+    
     
 }
 
@@ -178,7 +178,7 @@ margin: 1rem 0rem;
 .subsection figure{
     
     margin:0rem 0.25rem;
-    background-color:#A6989D;
+    background-color:#f2e4c9;
     
 }
 
@@ -209,7 +209,7 @@ nav a:focus, nav a:hover {
     background-color: #916e3e;
 }
 
-nav a :active{
+nav a:active{
 
  color: #fff;   
  background-color:#8a6005 ;
